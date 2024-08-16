@@ -1,5 +1,5 @@
-import 'package:x_pr/features/game/v3/data/models/x/res/x_game_res.dart';
-import 'package:x_pr/features/game/v3/domain/entities/game_channel.dart';
+import 'package:x_pr/features/game/data/models/x/res/x_game_res.dart';
+import 'package:x_pr/features/game/domain/entities/game_channel.dart';
 
 sealed class SocketPageState {}
 

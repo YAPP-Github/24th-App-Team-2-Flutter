@@ -9,8 +9,8 @@ import 'package:x_pr/core/view/base_view_model.dart';
 import 'package:x_pr/features/auth/domain/entities/jwt.dart';
 import 'package:x_pr/features/config/domain/entities/config.dart';
 import 'package:x_pr/features/config/domain/services/config_service.dart';
-import 'package:x_pr/features/game/v3/data/repository/game_repository.dart';
-import 'package:x_pr/features/game/v3/domain/entities/game_req/game_req.dart';
+import 'package:x_pr/features/game/data/repository/game_repository.dart';
+import 'package:x_pr/features/game/domain/entities/game_req/game_req.dart';
 
 class SocketPageModel extends BaseViewModel<SocketPageState> {
   SocketPageModel(super.buildState);

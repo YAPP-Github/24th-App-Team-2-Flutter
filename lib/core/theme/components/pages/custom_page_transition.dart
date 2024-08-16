@@ -7,7 +7,6 @@ import 'package:x_pr/core/theme/components/builder/child_builder.dart';
 import 'package:x_pr/core/theme/res/layout.dart';
 import 'package:x_pr/core/utils/env/constant.dart';
 
-/// TODO : Implement cupertino swipe back
 class CustomPageTransition extends StatelessWidget {
   const CustomPageTransition({
     super.key,

@@ -8,12 +8,7 @@ import 'package:x_pr/app/pages/dev/gemini/gemini_page.dart';
 import 'package:x_pr/app/pages/dev/local_data/local_data_page.dart';
 import 'package:x_pr/app/pages/dev/log/log_page.dart';
 import 'package:x_pr/app/pages/dev/socket/socket_page.dart';
-import 'package:x_pr/app/pages/game/v2/lobby/game_lobby_page.dart'
-    as gameLobbyV2;
-import 'package:x_pr/app/pages/game/v2/room/game_room_page.dart' as gameRoomV2;
-import 'package:x_pr/app/pages/game/v2/round/game_round_page.dart'
-    as gameRoundV2;
-import 'package:x_pr/app/pages/game/v3/game_page.dart';
+import 'package:x_pr/app/pages/game/game_page.dart';
 import 'package:x_pr/app/pages/home/home_page.dart';
 import 'package:x_pr/app/pages/join/join_page.dart';
 import 'package:x_pr/app/pages/login/login_page.dart';
@@ -118,27 +113,6 @@ enum Routes {
         path: '/game',
         name: Routes.game.name,
         builder: (context, state) => const GamePage(),
-      ),
-
-      /// Game : v2
-      GoRoute(
-        path: '/game/v2/lobby',
-        name: Routes.gameV2Lobby.name,
-        builder: (context, state) => const gameLobbyV2.GameLobbyPage(),
-      ),
-      GoRoute(
-        path: '/game/v2/room/:id',
-        name: Routes.gameV2Room.name,
-        builder: (context, state) => gameRoomV2.GameRoomPage(
-          roomId: state.pathParameters['id']!,
-        ),
-      ),
-      GoRoute(
-        path: '/game/v2/round/:id',
-        name: Routes.gameV2Round.name,
-        builder: (context, state) => gameRoundV2.GameRoundPage(
-          roundId: state.pathParameters['id']!,
-        ),
       ),
 
       /// Dev
