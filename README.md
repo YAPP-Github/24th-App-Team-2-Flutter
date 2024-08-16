@@ -1,6 +1,9 @@
 # Trouble Painter
 **Trouble Painter** is a drawing Mafia game where players must identify the Trouble Painter hidden among the Good Painters through a "Continue the Drawing" challenge.
 
+## Play Video
+👉 [Youtube](https://youtu.be/tgqa7e4jEeM)
+
 ## Description
 **How to Play**
 1. Gather 3 to 10 players.
